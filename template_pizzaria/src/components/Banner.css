@@ -1,0 +1,72 @@
+.main {
+    padding: 5rem 12rem 5rem 5rem;
+    background: linear-gradient(75deg,  #B91C1C 1%, #DC2626 60%);
+    display: flex;
+    gap: 5rem;
+    color: #fff;
+}
+
+.main_content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.main_content h2 {
+    font-size: 3.5rem;
+    font-weight: 900;
+}
+
+.main_content p {
+    color: #FEE2E2;
+    font-size: 1.25rem;
+
+}
+
+.main_buttons {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.main_buttons button {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.25rem 2rem;
+    border-radius: 2rem;
+
+}
+
+.main_buttons svg {
+    font-size: 1.75rem;
+}
+
+.main_buttons span {
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+
+.main_buttons .btn-what {
+    background-color: #25D366;
+}
+
+.main_buttons .btn-what {
+    background-color: #25D366;
+}
+
+.main_buttons .btn-menu {
+    color: #B91C1C;
+    background-color: #fff;
+}
+
+.main_image {
+    width: 31.25rem;
+    aspect-ratio: 1/1;
+    background: url(../assets/pizza.png);
+    background-position: center;
+    background-size: 145%;
+    background-repeat: no-repeat;
+    padding-right: 100px;
+    flex-grow: 1;
+}

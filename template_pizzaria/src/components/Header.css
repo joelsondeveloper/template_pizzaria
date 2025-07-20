@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    padding: .5rem 5rem;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.header_logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header_logo img {
+    width: 4rem;
+    aspect-ratio: 1/1;
+}
+
+.header_logo_brand h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.header_logo_brand p {
+    font-size: .875rem;
+    color: #6B7280;
+}
+
+.header_nav {
+    display: flex;
+    gap: 2rem;
+    font-weight: 500;
+    color: #374151;
+}
+
+.header_button button {
+    padding: .75rem 1.5rem;
+    background-color: #B91C1C;
+    border-radius: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: .75rem;
+    border: none;
+}
+
+.header_button svg {
+    font-size: 1rem;
+}
