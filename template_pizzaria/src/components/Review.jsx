@@ -14,7 +14,7 @@ const Review = () => {
     }
 
   return (
-    <section className="review">
+    <section className="review" id="rating">
       <header className="review_header">
         <h2>O que nossos clientes dizem</h2>
         <div className="review_classification">

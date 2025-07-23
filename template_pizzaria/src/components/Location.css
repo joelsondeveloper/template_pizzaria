@@ -214,9 +214,55 @@
   gap: 1rem;
 }
 
+
+}
+
+@media screen and (max-width: 48rem) {
+  
   .Location_main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  text-align: center;
+  }
+  .location_contact {
+  
+    padding: 0;
+    width: auto;
+  }
+  
+  .location_contact > section > header {
+    flex-direction: column;
+  }
+  
+  .location_contact > section > div,
+  .location_contact > section > ul {
+    padding-left: 0;
+  }
+  
+  .contact_hours_list li {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: .5rem 0;
+  }
+
+  .contact_phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact_phone_info,
+.contact_email {
+  display: block;
+  padding: .5rem 0;
+}
+
+.contact_buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 }

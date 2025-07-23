@@ -3,7 +3,7 @@ import MenuItem from "./MenuItem"
 
 const Menu = () => {
   return (
-    <section className="menu">
+    <section className="menu" id="menu">
       <header className="menu_header">
         <h2>Nosso Cardápio</h2>
         <p>Pizzas artesanais feitas com amor e ingredientes premium</p>

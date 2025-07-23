@@ -19,7 +19,7 @@ function App() {
       <About />
       <Review />
       <Location />
-      <WhatFloat />
+      {/* <WhatFloat /> */}
       <Footer />
     </div>
   )

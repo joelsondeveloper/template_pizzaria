@@ -2,16 +2,21 @@
     padding: 5rem;
     display: flex;
     gap: 5rem;
+    background-color: #2e7d32;
 }
 
 .about_image {
     width: 31.25rem;
     height: 25rem;
+    text-align: center;
 }
 
 .about_image img {
-    width: 100%;
-    object-fit: cover;
+    background-color: #FFF;
+    border-radius: 50%;
+    height: 100%;
+    aspect-ratio: 1/1;
+    /* object-fit: cover; */
 }
 
 .about_content {
@@ -23,17 +28,19 @@
 .about_content h2 {
     font-size: 2.25rem;
     font-weight: 800;
-    color: #1F2937;
+    color: #F9FAF8;
 }
 
 .about_content  p {
     font-size: 1.125rem;
-    color: #6B7280;
+    color: #E5E7EB;
+
 }
 
 .about_stats {
     display: flex;
     gap: 3rem;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 60rem) {
@@ -45,9 +52,6 @@
 }
 
 .about_content h2 {
-    font-size: 2.25rem;
-    font-weight: 800;
-    color: #1F2937;
     text-align: center;
 }
 }

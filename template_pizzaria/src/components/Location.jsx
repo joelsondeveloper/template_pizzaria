@@ -6,7 +6,7 @@ import "./Location.css";
 
 const Location = () => {
   return (
-    <section className="location">
+    <section className="location" id="contact">
       <header className="Location_header">
         <h2>Onde nos encontrar</h2>
         <p>Venha nos visitar ou peça delivery</p>

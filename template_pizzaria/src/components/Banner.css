@@ -1,5 +1,5 @@
 .main {
-  padding: 5rem 12rem 5rem 5rem;
+  padding: 10rem 12rem 5rem 5rem;
   background: url(../assets/fundo.png);
   display: flex;
   gap: 5rem;
@@ -74,7 +74,7 @@
     background: url(../assets/fundo_tablet.jpg);
     background-position: center;
     background-size: cover;
-    padding: 3rem 12rem 5rem 5rem;
+    padding: 8rem 12rem 5rem 5rem;
   }
 
   .main_image {
@@ -85,7 +85,7 @@
 @media screen and (max-width: 48rem) {
   .main {
     text-align: center;
-    padding: 3rem 1rem;
+    padding: 8rem 1rem;
     background-position: right;
     position: relative;
   }

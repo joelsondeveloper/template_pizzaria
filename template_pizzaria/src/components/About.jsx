@@ -5,7 +5,7 @@ import Stats from "./Stats";
 
 const About = () => {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <div className="about_image">
         <img src={Logo} alt="imagem do restaurante" />
       </div>
