@@ -5,6 +5,9 @@ import './App.css'
 import Menu from './components/Menu'
 import About from './components/About'
 import Review from './components/Review'
+import Location from './components/Location'
+import Footer from './components/Footer'
+import WhatFloat from './components/WhatFloat'
 
 function App() {
 
@@ -15,6 +18,9 @@ function App() {
       <Menu />
       <About />
       <Review />
+      <Location />
+      <WhatFloat />
+      <Footer />
     </div>
   )
 }

@@ -16,3 +16,9 @@
     font-size: .875rem;
     font-weight: 500;
 }
+
+@media screen and (max-width: 60rem) {
+    .Stats {
+        
+    }
+}

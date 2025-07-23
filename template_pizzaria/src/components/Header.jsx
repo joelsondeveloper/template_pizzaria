@@ -1,3 +1,5 @@
+import { useState } from 'react';
+
 import { FiPhone } from 'react-icons/fi';
 
 import Logo from "../assets/logo.png"
@@ -5,6 +7,13 @@ import Logo from "../assets/logo.png"
 import "./Header.css"
 
 const Header = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  const revertMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
   return (
     <header className="header">
       <div className="header_logo">
@@ -14,7 +23,7 @@ const Header = () => {
             <p>Pizzaria Artesanal</p>
         </div>
       </div>
-      <nav>
+      <nav className={isMenuOpen ? "open" : "close"}>
         <ul className="header_nav">
             <li><a href="#menu">Cardápio</a></li>
             <li><a href="#sobre">Sobre</a></li>
@@ -29,6 +38,13 @@ const Header = () => {
                 Pedir Agora
             </span>
         </button>
+      <div className="header_menu">
+        <span htmlFor="menu_btn" onClick={revertMenu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </span>
+      </div>
       </div>
     </header>
   )

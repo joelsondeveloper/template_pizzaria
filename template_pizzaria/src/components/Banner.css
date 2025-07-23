@@ -1,72 +1,115 @@
 .main {
-    padding: 5rem 12rem 5rem 5rem;
-    background: linear-gradient(75deg,  #B91C1C 1%, #DC2626 60%);
-    display: flex;
-    gap: 5rem;
-    color: #fff;
+  padding: 5rem 12rem 5rem 5rem;
+  background: url(../assets/fundo.png);
+  display: flex;
+  gap: 5rem;
+  color: #fff;
 }
 
 .main_content {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .main_content h2 {
-    font-size: 3.5rem;
-    font-weight: 900;
+  font-size: 3.5rem;
+  font-weight: 900;
 }
 
 .main_content p {
-    color: #FEE2E2;
-    font-size: 1.25rem;
-
+  color: #fee2e2;
+  font-size: 1.25rem;
 }
 
 .main_buttons {
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
 }
 
 .main_buttons button {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 1.25rem 2rem;
-    border-radius: 2rem;
-
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 2rem;
+  border-radius: 2rem;
 }
 
 .main_buttons svg {
-    font-size: 1.75rem;
+  font-size: 1.75rem;
 }
 
 .main_buttons span {
-    font-size: 1.125rem;
-    font-weight: bold;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .main_buttons .btn-what {
-    background-color: #25D366;
+  background-color: #25d366;
 }
 
 .main_buttons .btn-what {
-    background-color: #25D366;
+  background-color: #25d366;
 }
 
 .main_buttons .btn-menu {
-    color: #B91C1C;
-    background-color: #fff;
+  color: #b91c1c;
+  background-color: #fff;
 }
 
 .main_image {
-    width: 31.25rem;
-    aspect-ratio: 1/1;
-    background: url(../assets/pizza.png);
+  width: 31.25rem;
+  aspect-ratio: 1/1;
+  background: url(../assets/pizza.png);
+  background-position: center;
+  background-size: 145%;
+  background-repeat: no-repeat;
+  padding-right: 100px;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 60rem) {
+  .main {
+    background: url(../assets/fundo_tablet.jpg);
     background-position: center;
-    background-size: 145%;
-    background-repeat: no-repeat;
-    padding-right: 100px;
-    flex-grow: 1;
+    background-size: cover;
+    padding: 3rem 12rem 5rem 5rem;
+  }
+
+  .main_image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 48rem) {
+  .main {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-position: right;
+    position: relative;
+  }
+
+  .main::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  .main_content {
+    z-index: 2;
+    gap: 1rem;
+  }
+
+  .main_buttons button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border-radius: 2rem;
+  }
 }

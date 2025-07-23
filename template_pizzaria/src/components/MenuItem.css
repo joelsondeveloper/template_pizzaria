@@ -1,61 +1,82 @@
 .menu_item {
-    width: 20rem;
-    height: 26.25rem;
-    box-shadow: 0px 4px 16px #000;
-    background-color: #fff;
-    border-radius: 1rem;
-    overflow: hidden;
+  width: 20rem;
+  height: 26.25rem;
+  box-shadow: 0px 4px 16px #000;
+  background-color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .menu_item_img {
-    width: 100%;
-    height: 50%;
-    background-color: #8B5A2B;
+  width: 100%;
+  height: 50%;
+  background-color: #8b5a2b;
 }
 
 .menu_item_content {
-    height: 50%;
-    padding: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  height: 50%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu_item_details {
-    display: flex;
-    flex-direction: column;
-    gap: .5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .menu_item_details h3 {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #1F2937;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
 }
 
 .menu_item_details p {
-    font-size: .875rem;
-    color: #6B7280;
+  font-size: 0.875rem;
+  color: #6b7280;
 }
 
 .menu_item_action {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .menu_item_action p {
-    color: #B91C1C;
-    font-size: 1.5rem;
-    font-weight: bold;
+  color: #b91c1c;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .menu_item_action button {
-    padding: .6rem 1rem;
-    background-color: #B91C1C;
-    color: #fff;
-    font-size: 1.25rem;
-    border-radius: 1.25rem;
-    display: flex;
-    align-items: center;
+  padding: 0.6rem 1rem;
+  background-color: #b91c1c;
+  color: #fff;
+  font-size: 1.25rem;
+  border-radius: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 60rem) {
+  .menu_item {
+    width: 15rem;
+    height: 21.25rem;
+  }
+
+  .menu_item_img {
+  width: 100%;
+  height: 45%;
+  background-color: #8b5a2b;
+}
+
+.menu_item_content {
+  height: 50%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 }

@@ -37,7 +37,7 @@ const Review = () => {
           <p>4.9/5 (127 avaliações)</p>
         </div>
       </header>
-      <main className="review_main">
+      <div className="review_main">
         <div className="review_wrapper" style={{ transform: `translateX(${transform}%)` }}>
           <ReviewItem logo={null} />
           <ReviewItem logo={null} />
@@ -49,7 +49,7 @@ const Review = () => {
           <ReviewItem logo={null} />
           <ReviewItem logo={null} />
         </div>
-      </main>
+      </div>
       <div className="review_controls">
         <button className={`dot ${transform === 0 ? "active" : ""}` } onClick={() => handleTransform(0)}></button>
         <button className={`dot ${transform === -33 ? "active" : ""}`} onClick={() => handleTransform(-33)}></button>

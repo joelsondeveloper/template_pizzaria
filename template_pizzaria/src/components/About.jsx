@@ -21,9 +21,9 @@ const About = () => {
           único e a textura perfeita que só uma pizza artesanal pode oferecer.
         </p>
         <div className="about_stats">
-            <Stats number={15} text={"Anos de tradição"}/>
-            <Stats number={50} text={"Sabores Únicos"}/>
-            <Stats number={1000} text={"Clientes Satisfeitos"}/>
+            <Stats number={15} text={"Anos de tradição"} duration={1500}/>
+            <Stats number={50} text={"Sabores Únicos"} duration={2000}/>
+            <Stats number={1000} text={"Clientes Satisfeitos"} duration={3000}/>
         </div>
       </div>
     </section>
