@@ -100,6 +100,10 @@
   transform: translateX(-50%);
 }
 
+@media screen and (max-width: 70rem) {
+  
+}
+
 @media screen and (max-width: 64rem) {
   .header {
     padding: 0.5rem 2rem;

@@ -63,13 +63,14 @@
   aspect-ratio: 1/1;
   background: url(../assets/pizza.png);
   background-position: center;
-  background-size: 145%;
+  background-size: 150%;
   background-repeat: no-repeat;
   padding-right: 100px;
-  flex-grow: 1;
+  flex-shrink: 1;
 }
 
-@media screen and (max-width: 60rem) {
+@media screen and (max-width: 72rem) {
+  
   .main {
     background: url(../assets/fundo_tablet.jpg);
     background-position: center;
@@ -103,6 +104,7 @@
   .main_content {
     z-index: 2;
     gap: 1rem;
+    align-items: center;
   }
 
   .main_buttons button {
